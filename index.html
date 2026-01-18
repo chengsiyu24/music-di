@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>我的简单网站</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+<div class="container">
+<h1 class="site-title">我的简单网站</h1>
+<p class="site-subtitle">一个用来练手的极简页面</p>
+<button id="themeToggle" class="btn-primary">切换主题</button>
+</div>
+</header>
+<main class="site-main">
+<div class="container">
+<section class="card">
+<h2>关于这个网站</h2>
+<p>这是一个使用原生 HTML、CSS 和 JavaScript 搭建的简单单页网站，方便你理解最基础的前端结构。</p>
+</section>
+<section class="card card-grid">
+<div>
+<h3>我能做什么</h3>
+<ul class="list">
+<li>展示基本的文字内容</li>
+<li>响应按钮点击等简单交互</li>
+<li>演示浅色和深色主题切换</li>
+</ul>
+</div>
+<div>
+<h3>你可以如何扩展</h3>
+<ul class="list">
+<li>把它改成个人主页或作品集</li>
+<li>增加更多页面和导航栏</li>
+<li>接入你喜欢的前端框架</li>
+</ul>
+</div>
+</section>
+<section class="card">
+<h2>一个小互动</h2>
+<p>点击下面的按钮，我会随机给你一句简短的小提示。</p>
+<button id="tipButton" class="btn-secondary">来一句</button>
+<p id="tipText" class="tip-text"></p>
+</section>
+</div>
+</main>
+<footer class="site-footer">
+<div class="container">
+<p>© <span id="year"></span> 我的简单网站</p>
+</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
+
